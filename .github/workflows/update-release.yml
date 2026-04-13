@@ -37,7 +37,7 @@ jobs:
       - name: Update README version
         run: |
           VERSION="${{ steps.version.outputs.version }}"
-          sed -i "s/implementation(\"com.appsprint:sdk:.*\")/implementation(\"com.appsprint:sdk:${VERSION}\")/" README.md
+          sed -i "s/implementation(\"app.appsprint:sdk:.*\")/implementation(\"app.appsprint:sdk:${VERSION}\")/" README.md
 
       - name: Commit and tag
         run: |

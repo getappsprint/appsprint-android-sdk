@@ -10,7 +10,7 @@ Add to your app's `build.gradle.kts`:
 
 ```kotlin
 dependencies {
-    implementation("com.appsprint:sdk:0.2.0")
+    implementation("app.appsprint:sdk:0.2.0")
 }
 ```
 
