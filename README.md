@@ -24,7 +24,7 @@ repositories {
 
 ### Manual AAR
 
-Download the AAR from [Releases](https://github.com/app-sprint/appsprint-android-sdk/releases) and add to your project's `libs/` directory:
+Download the AAR from [Releases](https://github.com/getappsprint/appsprint-android-sdk/releases) and add to your project's `libs/` directory:
 
 ```kotlin
 dependencies {
